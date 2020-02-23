@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\avinash\\source\\repos\\WorkingWithRedis\\WorkingWithRedis\\WorkingWithRedis.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\avinash\\source\\repos\\WorkingWithRedis\\WorkingWithRedis\\WorkingWithRedis.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\avinash\\source\\repos\\WorkingWithRedis\\WorkingWithRedis\\WorkingWithRedis.csproj",
+        "projectName": "WorkingWithRedis",
+        "projectPath": "C:\\Users\\avinash\\source\\repos\\WorkingWithRedis\\WorkingWithRedis\\WorkingWithRedis.csproj",
+        "packagesPath": "C:\\Users\\avinash\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\avinash\\source\\repos\\WorkingWithRedis\\WorkingWithRedis\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\avinash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.0.601, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
